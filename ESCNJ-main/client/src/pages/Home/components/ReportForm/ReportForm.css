@@ -1,0 +1,93 @@
+.List {
+    border: 1px solid #d9dddd;
+    margin-top: 10px;
+}
+
+.ListItemEven,
+.ListItemOdd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.ListItemEven:hover,
+.ListItemOdd:hover {
+    background-color: blue;
+    color: white;
+}
+
+.ListItemEven {
+    background-color: #f8f8f0;
+}
+
+.add-report {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.add-report .error {
+    color: red;
+}
+
+.add-report .title {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.add-report .input-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.add-report .label {
+    width: 40%;
+}
+
+.add-report .input {
+    width: 80%;
+}
+
+.add-report .add-report-form {
+    width: 90%;
+}
+
+.add-report .add-report-button {
+    padding: 10px;
+    background-color: rgb(24, 67, 131);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.add-report .add-report-button:hover {
+    background-color: #0056b3;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 5px;
+    font-size: 20px;
+}
+
+.input-label {
+    width: 20%;
+    text-align: center
+}
+
+.input {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

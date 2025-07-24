@@ -1,0 +1,21 @@
+.home .contract-record-row .table-action {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .contract-record-row .table-action-icon {
+  width: 50%;
+}
+
+.home .contract-record-row .table-action-icon:hover {
+  color: red;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .home .contract-record-row .table-action {
+    height: 50px;
+  }
+}

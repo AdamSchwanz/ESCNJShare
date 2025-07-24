@@ -1,0 +1,41 @@
+.home .contract-records {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-top: 10px;
+}
+
+.home .new-report-button {
+    padding: 10px;
+    background-color: rgb(24, 67, 131);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.home .new-report-button:hover {
+    background-color: #0056b3;
+}
+
+.home .contract-records table {
+    width: 100%;
+}
+
+.home .contract-records table,
+.home .contract-records tr,
+.home .contract-records td,
+.home .contract-records th {
+    border: 1px solid black;
+}
+
+@media (max-width: 480px) {
+    .home .contract-records {
+        width: 90%;
+    }
+}
